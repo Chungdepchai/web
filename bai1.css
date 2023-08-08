@@ -1,0 +1,51 @@
+#wrapper{
+    position: relative;
+}
+header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+
+}
+header nav.bg-body-tertiary{
+    background-color: transparent   !important;
+}    
+
+
+header nav ul li a.nav-link{
+    color:orange;
+    text-transform: uppercase;
+    padding: 10px 20px !important;
+}
+header nav ul li a.nav-link.active,header nav ul li a.nav-link:focus{
+    color:orange !important;
+}
+header nav ul li a.nav-link:hover{
+    color: orange !important;
+
+}
+header .navbar-brand{
+    margin-right: 50px;
+}
+header nav ul{
+    justify-content: end;
+    width: 100%;
+}
+.contai{
+    padding-top: 50px;
+}
+.row{display: flex;}
+img{
+    width: 100%;
+}
+.formdk{background-color: #f2f2f2; padding: 60px;}
+.formdk h2{text-transform: uppercase;text-align: center;margin-bottom: 30px;font-weight: 700;}
+.formdk form{width: 800px; margin: 0 auto;}
+.row-group{display: flex; justify-content: space-between; margin-bottom: 20px;}
+.row-group div{width: 48%;}
+.row-group input{width: 100%; padding: 8px 15px; border-radius: 5px; border: 1px solid #ccc;}
+.formdk p{margin-bottom: 5px;}
+.formdk textarea{width: 100%; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;}
+
+
+
